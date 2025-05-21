@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sail – Smart Email Organizer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900 font-[Inter]">
+  <!-- Hero Section -->
+  <section class="text-center px-6 py-20 bg-gradient-to-b from-blue-50 to-white">
+    <div class="flex justify-center items-center gap-3 mb-4">
+      <img src="https://cdn-icons-png.flaticon.com/512/861/861060.png" alt="Sail Logo" class="w-10 h-10" />
+      <h1 class="text-4xl font-bold">Sail</h1>
+    </div>
+    <p class="text-xl mb-6 max-w-2xl mx-auto">Sail transforms your messy inbox into a clean, intuitive, and actionable communication space. Let your emails finally make sense.</p>
+    <button class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Join the Waitlist</button>
+    <div class="mt-10 animate-pulse">
+      <img src="https://cdn-icons-png.flaticon.com/512/861/861060.png" alt="Speeding Boat Animation" class="w-24 h-24 mx-auto opacity-80" />
+    </div>
+  </section>
+
+  <!-- Problem Section -->
+  <section class="px-6 py-16 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">The Problem</h2>
+    <p class="text-lg text-gray-700">Your inbox is overloaded with random, disorganized emails — receipts, subscriptions, OTPs, offers, flight bookings, bank alerts — all jumbled together. Searching is a pain. Finding what matters takes effort.</p>
+  </section>
+
+  <!-- How it Works Section -->
+  <section class="px-6 py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-8">How Sail Works</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <img src="https://via.placeholder.com/100" alt="AI Scan" class="mx-auto mb-4" />
+          <h3 class="font-semibold text-lg mb-2">Reads Your Inbox</h3>
+          <p class="text-gray-600 text-sm">Sail scans your emails securely and understands the content using AI.</p>
+        </div>
+        <div class="text-center">
+          <img src="https://via.placeholder.com/100" alt="Organize" class="mx-auto mb-4" />
+          <h3 class="font-semibold text-lg mb-2">Auto-Categorizes</h3>
+          <p class="text-gray-600 text-sm">Emails are sorted into bubbles like Finances, Travel, Orders, Subscriptions, and more.</p>
+        </div>
+        <div class="text-center">
+          <img src="https://via.placeholder.com/100" alt="Summarize" class="mx-auto mb-4" />
+          <h3 class="font-semibold text-lg mb-2">Smart Summaries</h3>
+          <p class="text-gray-600 text-sm">Only the important info is shown — like a timeline of your credits, debits, and travel updates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="px-6 py-16 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-6">What You Can Expect</h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-2">
+      <li>Clean, clutter-free inbox sorted into visual bubbles</li>
+      <li>One-click summaries for each bank or service</li>
+      <li>Seamless navigation through travel, subscriptions, and orders</li>
+      <li>Smart alerts and reminders based on your email content</li>
+    </ul>
+  </section>
+
+  <!-- Signup CTA -->
+  <section class="px-6 py-16 bg-blue-100 text-center">
+    <h2 class="text-xl font-semibold mb-4">Be the first to experience the future of email</h2>
+    <p class="mb-6 text-gray-700">Sign up now to get early access to Sail and help shape the cleanest inbox experience ever.</p>
+    <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+      <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 rounded-md border border-gray-300" required />
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-blue-700">Notify Me</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 py-6">
+    © 2025 Sail. All rights reserved.
+  </footer>
+</body>
+
+</html>
